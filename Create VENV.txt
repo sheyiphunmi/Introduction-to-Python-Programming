@@ -1,0 +1,59 @@
+1.Check python version
+
+python --version 
+
+
+USING CONDA TON CREATE VIRTUAL ENVIRONMENT.
+
+1. ___Check if Conda is installed and Update Connda___
+
+conda -V
+
+conda update -n base -c defaults conda
+
+2. Create Virtual Environment With Conda
+
+conda create -n yourenvname python=x.x anaconda
+
+2a. Activate virtual environment with Conda
+
+conda activate yourenvname
+
+2b. Install Packages to Environment
+
+conda install -n yourenvname [package]
+
+3. Remove Virtual Environment from computer.
+conda remove -n udacityai --all
+
+
+
+USING VENV TO CREATE VIRTUAL ENVIRONMENT
+
+1. Create Environment
+
+python -m venv yourenvname
+
+2. Activating Virtual Environment
+
+yourenvname\Scripts\activate.bat (Windows)
+
+source yourenvname/bin/activate (MacOS/Unix)
+
+3. Install package using pip
+
+pip install packagename
+
+4. Create a record of everything installed in your environment. Make it reusable
+
+pip freeze > requirements.txt
+
+5. Use the Installed packages in a new venv
+pip install -r requirements.txt
+
+
+
+
+
+
+
