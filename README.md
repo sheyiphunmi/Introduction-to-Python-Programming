@@ -1,5 +1,5 @@
 # Introduction-to-Python-Programming
-Introduction to Python for AI
+Notebooks and code for learning python for AI
 
 ## Description:
 Contains worked examples and explanation to learn python. Note was created while taking the AI Programming with Python Nanodegree on Udacity
